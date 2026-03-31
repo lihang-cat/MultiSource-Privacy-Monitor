@@ -1,0 +1,16 @@
+# 彻底屏蔽敏感数据
+models/Qwen/data/
+llm_experiments/
+*.jsonl
+*.csv
+
+# 忽略大文件和输出
+models/*/output/
+*.bin
+*.safetensors
+*.pth
+*.pt
+
+# 缓存
+__pycache__/
+.ipynb_checkpoints/
