@@ -1,6 +1,5 @@
 # 彻底屏蔽敏感数据
 models/Qwen/data/
-llm_experiments/
 *.jsonl
 *.csv
 
